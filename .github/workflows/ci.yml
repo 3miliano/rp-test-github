@@ -1,0 +1,7 @@
+name: CI
+on: [push, workflow_dispatch]
+jobs:
+  say:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "seeded so the Actions tools have something to answer with"
